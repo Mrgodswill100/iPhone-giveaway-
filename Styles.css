@@ -1,0 +1,123 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* Light background color */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: linear-gradient(90deg, #ff6b6b, #f7e94c); /* Gradient background */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    text-transform: uppercase; /* Ensure the header text is in uppercase */
+    font-size: 1.5em; /* Increase font size for visibility */
+}
+
+main {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#linkToShare {
+    font-weight: bold;
+    color: #007BFF; /* Bright blue for the link */
+    font-size: 1.2em;
+}
+
+button {
+    background: #28a745; /* Green button */
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background: #218838; /* Darker green on hover */
+}
+
+.instruction {
+    margin-top: 15px;
+    color: #333;
+    font-size: 1em;
+}
+
+footer {
+    background: #ff6b6b; /* Footer with the same gradient color */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.continue-button {
+    display: inline-block; /* Ensure it behaves like a button */
+    background-color: #4CAF50; /* Green color */
+    color: white;
+    text-align: center; /* Center text */
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%; /* Full width */
+    text-decoration: none; /* Remove underline */
+}
+
+.continue-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #777;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.continue-button {
+    display: inline-block; /* Ensure it behaves like a button */
+    background-color: #4CAF50; /* Green color */
+    color: white;
+    text-align: center; /* Center text */
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%; /* Full width */
+    text-decoration: none; /* Remove underline */
+}
+
+.continue-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
